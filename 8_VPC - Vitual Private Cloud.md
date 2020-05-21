@@ -5,6 +5,7 @@
 - Public subnet can access the internet (through a Internet Gateway)
 - Private subnet cannot access the internet
 - Route tables are used to define access to the internet and between subnets
+- 1 default VPC per Region
 
 ## NAT - Network Address Translation
 
@@ -29,6 +30,12 @@ Can capture information about IP traffic of:
 - VPC
 - Subnet
 - Elastic Network Interface
+
+## VPC Peering
+Way of connecting two VPC with non overlaping IP ranges
+
+## VPC Endpoint
+Provide private access to AWS Services within VPC
 
 ## Site to Site VPN
 
